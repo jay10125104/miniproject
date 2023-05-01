@@ -61,7 +61,7 @@ const Details = () => {
                 <ProgressBar completed={40} />
               </h1>
               <ThemeProvider theme={theme}>
-                <Button className='mt-3' variant="contained" color='primary'>Donate </Button>
+                <Button className='mt-3' variant="contained" color='primary'><a href="https://buy.stripe.com/test_3cseVi4AY7lg1yM000">Donate</a></Button>
               </ThemeProvider>
             </div>
           </>
